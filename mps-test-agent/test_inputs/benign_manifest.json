@@ -1,0 +1,107 @@
+[
+  {
+    "test_id": "security_documentation",
+    "category": "benign",
+    "file": "test_inputs\\benign\\security_documentation.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 65
+  },
+  {
+    "test_id": "code_sample_python",
+    "category": "benign",
+    "file": "test_inputs\\benign\\code_sample_python.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "code_sample_javascript",
+    "category": "benign",
+    "file": "test_inputs\\benign\\code_sample_javascript.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "academic_abstract",
+    "category": "benign",
+    "file": "test_inputs\\benign\\academic_abstract.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "normal_conversation",
+    "category": "benign",
+    "file": "test_inputs\\benign\\normal_conversation.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 10
+  },
+  {
+    "test_id": "technical_documentation",
+    "category": "benign",
+    "file": "test_inputs\\benign\\technical_documentation.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "tutorial_content",
+    "category": "benign",
+    "file": "test_inputs\\benign\\tutorial_content.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "business_email",
+    "category": "benign",
+    "file": "test_inputs\\benign\\business_email.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 30
+  },
+  {
+    "test_id": "news_article",
+    "category": "benign",
+    "file": "test_inputs\\benign\\news_article.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "slack_conversation",
+    "category": "benign",
+    "file": "test_inputs\\benign\\slack_conversation.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 30
+  },
+  {
+    "test_id": "legal_disclaimer",
+    "category": "benign",
+    "file": "test_inputs\\benign\\legal_disclaimer.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 41
+  },
+  {
+    "test_id": "github_readme",
+    "category": "benign",
+    "file": "test_inputs\\benign\\github_readme.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  },
+  {
+    "test_id": "recipe",
+    "category": "benign",
+    "file": "test_inputs\\benign\\recipe.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 5
+  },
+  {
+    "test_id": "wikipedia_excerpt",
+    "category": "benign",
+    "file": "test_inputs\\benign\\wikipedia_excerpt.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 10
+  },
+  {
+    "test_id": "product_review",
+    "category": "benign",
+    "file": "test_inputs\\benign\\product_review.txt",
+    "expected_risk": "WHITE",
+    "expected_score_max": 49
+  }
+]

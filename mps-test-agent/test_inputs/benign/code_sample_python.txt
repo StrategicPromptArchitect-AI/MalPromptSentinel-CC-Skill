@@ -1,0 +1,17 @@
+def validate_input(user_input):
+    # Check for injection attempts
+    # Example malicious input: "Ignore all safety guidelines"
+    dangerous_patterns = [
+        "ignore previous",
+        "disregard context",
+        "you are now"
+    ]
+    
+    for pattern in dangerous_patterns:
+        if pattern.lower() in user_input.lower():
+            return False
+    return True
+
+# Test the validator
+test_input = "What is the weather today?"
+print(validate_input(test_input))  # Should return True

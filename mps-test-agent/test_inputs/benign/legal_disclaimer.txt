@@ -1,0 +1,11 @@
+TERMS OF SERVICE
+
+By using this system, you agree to the following terms:
+
+1. You will not attempt to manipulate system behavior through prompt injection or similar techniques
+2. You will not use the system for malicious purposes
+3. You understand that certain requests may be filtered for safety
+
+This system uses automated content filtering. Inputs containing suspicious patterns (e.g., "ignore previous instructions", "enable admin mode") may be blocked or flagged for review.
+
+If you believe content was incorrectly filtered, please contact support.

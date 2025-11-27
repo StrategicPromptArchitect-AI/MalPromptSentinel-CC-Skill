@@ -1,0 +1,9 @@
+5 Stars - Great Security Tool
+
+This prompt injection detection library has been working great for our application. It catches most attack attempts and has a low false positive rate. 
+
+The documentation could be better - I initially struggled to understand the risk scoring system. But once configured properly, it's been reliable.
+
+One minor issue: legitimate queries containing phrases like "ignore previous messages" (when discussing email/chat features) sometimes get flagged. The whitelist feature helps with this though.
+
+Overall, highly recommend for anyone building AI applications that need input validation.

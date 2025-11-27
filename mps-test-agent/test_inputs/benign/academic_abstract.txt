@@ -1,0 +1,3 @@
+Abstract: We analyze prompt injection attacks on large language models. Our study examines how adversarial inputs containing phrases like "ignore previous instructions" can manipulate model behavior. We propose defense mechanisms based on input validation and context isolation. Our results show that pattern-based detection achieves 85% accuracy when configured appropriately. Future work includes adversarial training and architectural defenses.
+
+Keywords: prompt injection, LLM security, adversarial attacks, input validation

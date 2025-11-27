@@ -1,0 +1,7 @@
+Tech Companies Enhance AI Safety Measures
+
+Major technology companies announced new safety protocols for AI systems today. The measures include improved input validation to prevent prompt injection attacks, where malicious users attempt to override system instructions.
+
+Security researchers have demonstrated how phrases like "ignore previous instructions" can be used to manipulate AI behavior. The new protocols aim to detect and block such attempts while maintaining system functionality.
+
+Industry experts praise the initiative as an important step toward more secure AI deployment.

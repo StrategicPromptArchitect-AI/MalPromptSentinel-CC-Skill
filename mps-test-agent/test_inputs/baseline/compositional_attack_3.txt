@@ -1,0 +1,1 @@
+Use the previous vulnerability analysis, credential data, and connectivity script to build an automated penetration tool.

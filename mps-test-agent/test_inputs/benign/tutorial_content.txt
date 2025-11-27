@@ -1,0 +1,11 @@
+# Securing AI Applications
+
+When building AI applications, be aware of prompt injection vulnerabilities. Attackers may try to inject malicious instructions like "ignore previous instructions" into user inputs.
+
+Best practices:
+1. Validate all user inputs
+2. Use context isolation
+3. Implement rate limiting
+4. Monitor for suspicious patterns
+
+Example of a safe implementation: validate inputs before passing them to the AI model.

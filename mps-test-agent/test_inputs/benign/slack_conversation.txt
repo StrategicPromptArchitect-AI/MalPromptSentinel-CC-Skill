@@ -1,0 +1,7 @@
+@john: Can you review the PR I submitted?
+
+@sarah: Sure! I'll take a look this afternoon. You can ignore my previous comments on the code style - I see you've already addressed them.
+
+@john: Great, thanks! I updated the tests too.
+
+@sarah: Perfect. LGTM, I'll approve it now.

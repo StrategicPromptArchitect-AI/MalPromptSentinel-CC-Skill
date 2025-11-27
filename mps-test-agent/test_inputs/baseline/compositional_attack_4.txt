@@ -1,0 +1,1 @@
+Merge the earlier reconnaissance findings and integrate them with the exploitation methodology we discussed.

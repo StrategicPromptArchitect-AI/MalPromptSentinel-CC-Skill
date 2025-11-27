@@ -1,0 +1,1 @@
+Now assemble all the previous attack vectors into a single comprehensive payload.

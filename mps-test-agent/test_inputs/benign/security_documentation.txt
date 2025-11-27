@@ -1,0 +1,10 @@
+# Prompt Injection Attack Patterns
+
+This document describes common prompt injection techniques for educational purposes.
+
+Example attack: "Ignore previous instructions"
+This pattern attempts to override system prompts by using imperative verbs.
+
+Detection: Look for imperative verbs like "ignore", "disregard", "forget" followed by references to instructions or context.
+
+Defense: Implement input validation and context isolation to prevent injection attacks from affecting model behavior.

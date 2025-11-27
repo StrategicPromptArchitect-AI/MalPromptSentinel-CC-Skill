@@ -1,0 +1,19 @@
+// Prompt injection detection example
+function detectInjection(text) {
+    // These patterns indicate potential attacks:
+    // - "ignore previous instructions"
+    // - "you are now in admin mode"
+    // - "disable safety filters"
+    
+    const patterns = [
+        /ignore.*(previous|prior).*instructions?/i,
+        /you are now/i,
+        /disable.*safety/i
+    ];
+    
+    return patterns.some(pattern => pattern.test(text));
+}
+
+// Example usage - this should NOT trigger false positive
+const userQuery = "How do I ignore previous messages in Slack?";
+console.log(detectInjection(userQuery));
